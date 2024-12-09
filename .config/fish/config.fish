@@ -39,8 +39,11 @@ set --export PATH \
     /sbin \
     /opt/homebrew/sbin
 
+set --export XDG_CONFIG_HOME \
+    $HOME/.config
+
 # Init in background
 function init_background --on-event fish_prompt
-    # starship init fish | source &
+    starship init fish | source &
     pyenv init --path | source &
 end

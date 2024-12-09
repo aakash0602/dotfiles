@@ -28,11 +28,11 @@ wezterm.on("user-var-changed", function(window, pane, name, value)
 	window:set_config_overrides(overrides)
 end)
 
-config.font = wezterm.font("IosevkaTerm Nerd Font")
+config.font = wezterm.font("Iosevka Nerd Font")
 -- config.font = wezterm.font("Terminess Nerd Font", { weight = "DemiBold" })
 
-config.font_size = 12
-config.line_height = 1.2
+config.font_size = 14
+config.line_height = 1.4
 config.warn_about_missing_glyphs = false
 
 config.color_scheme = "Gruvbox Dark (Gogh)"
@@ -45,9 +45,9 @@ config.enable_wayland = false
 config.window_decorations = "RESIZE"
 
 config.window_padding = {
-  left = 10,
-  right = 10,
-	top = 12.5,
+	left = 7,
+	right = 3,
+	top = 7,
 	bottom = 0,
 }
 
