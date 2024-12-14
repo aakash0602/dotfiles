@@ -1,23 +1,23 @@
 gui:
   theme:
     activeBorderColor:
-      - "#fabd2f" # Gruvbox yellow
+      - "#eb6f92" # Rose Pine Main pink
       - bold
     inactiveBorderColor:
-      - "#928374" # Gruvbox gray
+      - "#6e6a86" # Rose Pine Main subtle
     optionsTextColor:
-      - "#83a598" # Gruvbox aqua
+      - "#9ccfd8" # Rose Pine Main foam
     selectedLineBgColor:
-      - "#3c3836" # Gruvbox dark background
+      - "#191724" # Rose Pine Main base
     cherryPickedCommitBgColor:
-      - "#504945" # Gruvbox medium dark
+      - "#26233a" # Rose Pine Main surface
     cherryPickedCommitFgColor:
-      - "#fabd2f" # Gruvbox yellow
+      - "#ebbcba" # Rose Pine Main rose
     unstagedChangesColor:
-      - "#fb4934" # Gruvbox red
+      - "#f6c177" # Rose Pine Main gold
     defaultFgColor:
-      - "#ebdbb2" # Gruvbox light foreground
+      - "#e0def4" # Rose Pine Main text
     searchingActiveBorderColor:
-      - "#d3869b" # Gruvbox pink
+      - "#c4a7e7" # Rose Pine Main iris
   authorColors:
-    "*": "#bdae93" # Gruvbox light gray
+    "*": "#908caa" # Rose Pine Main subtle
