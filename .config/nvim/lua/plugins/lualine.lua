@@ -20,7 +20,7 @@ return {
 
     return {
       options = {
-        theme = "rose-pine",
+        theme = "catppuccin-mocha",
         globalstatus = true,
         disabled_filetypes = { statusline = { "dashboard", "alpha", "starter" } },
         component_separators = { left = "|", right = "|" },

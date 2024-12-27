@@ -1,6 +1,6 @@
 # This file contains fish universal variable definitions.
 # VERSION: 3.0
-SETUVAR --export PYENV_ROOT:/Users/sudarshjain/\x2epyenv
+SETUVAR --export PYENV_ROOT:/Users/aakash/\x2epyenv
 SETUVAR --export --path PYTHONPATH:/home/sudarsh/workspace/predigle/pluto/api\x2dpluto\x2dpmi
 SETUVAR __fish_initialized:3400
 SETUVAR fish_color_autosuggestion:brblack

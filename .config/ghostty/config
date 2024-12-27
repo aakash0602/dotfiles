@@ -1,0 +1,11 @@
+window-decoration = false
+theme = catppuccin-mocha
+background-opacity = 0.90
+window-inherit-font-size = true
+font-size = 16
+font-family = "Hack Nerd Font"
+font-thicken = true
+window-padding-x = 8
+window-padding-y = 8
+window-padding-balance = true
+
