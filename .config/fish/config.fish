@@ -27,17 +27,17 @@ set --export PATH \
     $HOME/.pyenv/shims \
     $HOME/.pyenv/bin \
     $HOME/.bun/bin \
-    /usr/local/go/bin \
     $HOME/go/bin \
     $HOME/.cargo/bin \
-    $HOME/.nvm/versions/node/v20.17.0/bin \
+    $HOME/.nvm/versions/node/*/bin \
     /opt/homebrew/bin \
+    /opt/homebrew/sbin \
+    /usr/local/go/bin \
     /usr/local/bin \
     /usr/bin \
-    /bin \
     /usr/sbin \
-    /sbin \
-    /opt/homebrew/sbin
+    /bin \
+    /sbin
 
 set --export XDG_CONFIG_HOME \
     $HOME/.config

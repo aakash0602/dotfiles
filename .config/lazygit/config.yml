@@ -8,7 +8,7 @@ gui:
     optionsTextColor:
       - "#9ccfd8" # Rose Pine Main foam
     selectedLineBgColor:
-      - "#191724" # Rose Pine Main base
+      - "#eb6f92" # Rose Pine Main base
     cherryPickedCommitBgColor:
       - "#26233a" # Rose Pine Main surface
     cherryPickedCommitFgColor:
