@@ -31,12 +31,13 @@ end)
 -- config.font = wezterm.font("ZedMono Nerd Font")
 -- config.font = wezterm.font("Terminess Nerd Font", { weight = "DemiBold" })
 
-config.font_size = 12
+config.font_size = 14
 config.line_height = 1.3
 config.warn_about_missing_glyphs = false
 
 local theme = require("themes.rose-pine").main
 config.colors = theme.colors()
+config.max_fps = 120
 
 -- config.macos_window_background_blur = 8
 

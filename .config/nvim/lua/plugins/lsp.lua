@@ -2,18 +2,18 @@
 -- plus define border for hover window
 vim.lsp.handlers["textDocument/hover"] = function(_, result, ctx, config)
   config = config
-      or {
-        border = {
-          { "╭", "Comment" },
-          { "─", "Comment" },
-          { "╮", "Comment" },
-          { "│", "Comment" },
-          { "╯", "Comment" },
-          { "─", "Comment" },
-          { "╰", "Comment" },
-          { "│", "Comment" },
-        },
-      }
+    or {
+      border = {
+        { "╭", "Comment" },
+        { "─", "Comment" },
+        { "╮", "Comment" },
+        { "│", "Comment" },
+        { "╯", "Comment" },
+        { "─", "Comment" },
+        { "╰", "Comment" },
+        { "│", "Comment" },
+      },
+    }
   config.focus_id = ctx.method
 
   if not (result and result.contents) then
