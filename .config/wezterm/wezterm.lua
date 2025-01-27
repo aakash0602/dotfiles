@@ -27,31 +27,30 @@ wezterm.on("user-var-changed", function(window, pane, name, value)
 	end
 	window:set_config_overrides(overrides)
 end)
---
--- config.font = wezterm.font("ZedMono Nerd Font")
--- config.font = wezterm.font("Terminess Nerd Font", { weight = "DemiBold" })
 
-config.font_size = 14
-config.line_height = 1.3
+config.font = wezterm.font("ZedMono Nerd Font")
+
+config.font_size = 15
+config.line_height = 1.2
 config.warn_about_missing_glyphs = false
 
 local theme = require("themes.rose-pine").main
 config.colors = theme.colors()
 config.max_fps = 120
 
--- config.macos_window_background_blur = 8
+config.macos_window_background_blur = 20
 
 config.enable_tab_bar = false
 config.enable_wayland = false
 
 config.window_decorations = "RESIZE"
--- config.window_background_opacity = 0.9
+config.window_background_opacity = 0.85
 
 config.window_padding = {
-	left = 8,
-	right = 2,
-	top = 12,
-	bottom = 0,
+	left = 4,
+	right = 0,
+	top = 8,
+	bottom = 2,
 }
 
 return config

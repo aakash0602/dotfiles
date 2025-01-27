@@ -12,15 +12,12 @@ return {
   opts = function()
     local lualine_require = require("lualine_require")
     lualine_require.require = require
-
     local icons = require("lazyvim.config").icons
-    local Util = require("lazyvim.util")
-
     vim.o.laststatus = vim.g.lualine_laststatus
 
     return {
       options = {
-        theme = "rose-pine",
+        theme = "gruvbox-material",
         globalstatus = true,
         disabled_filetypes = { statusline = { "dashboard", "alpha", "starter" } },
         component_separators = { left = "|", right = "|" },

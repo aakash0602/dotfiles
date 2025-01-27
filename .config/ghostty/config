@@ -1,16 +1,34 @@
-font-family = Iosevka Nerd Font
-font-size = 14
+font-family = ZedMono Nerd Font
+font-size = 16
+adjust-cell-height = 15%
 
-theme = rose-pine
-
-window-padding-x = 4
-window-padding-y = 4
+window-padding-x = 5
+window-padding-y = 6
 window-padding-balance = true
 macos-titlebar-style = hidden
 
-background-opacity = 0.9
+background-blur-radius = 16
+background-opacity = 0.85
 shell-integration = fish
 
-cursor-color = c1c1c1
-selection-foreground = c1c1c1
-
+palette = 0=#141617
+palette = 1=#ea6962
+palette = 2=#a9b665
+palette = 3=#d8a657
+palette = 4=#7daea3
+palette = 5=#d3869b
+palette = 6=#89b482
+palette = 7=#d4be98
+palette = 8=#32302f
+palette = 9=#ea6962
+palette = 10=#a9b665
+palette = 11=#d8a657
+palette = 12=#7daea3
+palette = 13=#d3869b
+palette = 14=#89b482
+palette = 15=#d4be98
+background = #000000
+foreground = #d4be98
+cursor-color = #d4be98
+selection-background = #32302f
+selection-foreground = #d4be98
