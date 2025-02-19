@@ -1,7 +1,7 @@
 # This file contains fish universal variable definitions.
 # VERSION: 3.0
 SETUVAR --export ANTHROPIC_API_KEY:sk\x2dant\x2dapi03\x2dlNsAl8p5A4Z82ngYIjJG\x2dES6mtRjRLedBjgNTKHTyUIXMELemx8MRkxZ9JF47LwsJgkIc5NiPvMlalHMzQFbzQ\x2d1fePMAAA
-SETUVAR --export PYENV_ROOT:/Users/sudarshjain/\x2epyenv
+SETUVAR --export PYENV_ROOT:/Users/aakash/\x2epyenv
 SETUVAR --export --path PYTHONPATH:/home/sudarsh/workspace/predigle/pluto/api\x2dpluto\x2dpmi
 SETUVAR __fish_initialized:3400
 SETUVAR fish_color_autosuggestion:brblack

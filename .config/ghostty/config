@@ -1,4 +1,4 @@
-font-family = ZedMono Nerd Font
+font-family = FiraCode Nerd Font
 font-size = 16
 adjust-cell-height = 15%
 
@@ -7,7 +7,7 @@ window-padding-y = 6
 window-padding-balance = true
 macos-titlebar-style = hidden
 
-background-blur-radius = 16
+background-blur-radius = 12
 background-opacity = 0.85
 shell-integration = fish
 
